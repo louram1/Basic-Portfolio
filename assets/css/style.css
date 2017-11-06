@@ -79,6 +79,37 @@ h2, h3, p, a {
     position:absolute;
 }
 
+.Container1 {
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    width:650px;
+    margin:auto;
+    padding:0px;
+    float:left;
+    border: 1px solid #4CAF50;
+    clear:left;
+    position:absolute;
+    height:570px;
+}
+
+.gallery{
+	width: 200px;
+	height:150px;
+	margin:auto;
+	display: inline-block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#Photos{
+
+	height:540px;
+	width: 480px;
+	overflow: hidden;
+}
 .Sidebar{
     background-color: #4aaaa5;
     width: 270px;
@@ -102,6 +133,19 @@ h2, h3, p, a {
     height:360px;
     border-color: #dddddd;
 
+}
+
+.middle1 {
+	
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width:960px; 
+    margin:auto;
+    border: 1px solid black;
+    top:150px; 
+    left:0;
+    height:600px;
+    border-color: #dddddd;
 }
 
 .text{
@@ -154,4 +198,38 @@ li a:hover:not(.active) {
     background-color: red;
     color: white;
     text-align: center;
+}
+
+input[type=text], select {
+    width: 600px;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#divForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: right;
+    height: 400px;
+    display:inline-block;
 }
